@@ -1,17 +1,15 @@
 import React from "react";
-
-
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default class Main extends React.Component {
-constructor(){
-  super();
-  this.name="Jason";
-}
 
-  render(){
-    return(
-      <h1>Its {this.name}!</h1>
-
+  render() {
+    return (
+      <div>
+        <Header/>
+        <Footer/>
+      </div>
     );
   }
 }
